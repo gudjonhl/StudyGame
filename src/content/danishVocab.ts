@@ -156,4 +156,75 @@ export const DANISH_VOCAB: VocabPair[] = [
   { id: 'ved-6', da: 'vejr', is: 'veður', category: 'Veðrið', level: 3 },
   { id: 'ved-7', da: 'storm', is: 'stormur', category: 'Veðrið', level: 3 },
   { id: 'ved-8', da: 'tordenvejr', is: 'þrumuveður', category: 'Veðrið', level: 3 },
+
+  // --- Farartæki (1) ---
+  { id: 'far-1', da: 'bil', is: 'bíll', category: 'Farartæki', level: 1 },
+  { id: 'far-2', da: 'bus', is: 'strætó', category: 'Farartæki', level: 1 },
+  { id: 'far-3', da: 'tog', is: 'lest', category: 'Farartæki', level: 1 },
+  { id: 'far-4', da: 'fly', is: 'flugvél', category: 'Farartæki', level: 1 },
+  { id: 'far-5', da: 'båd', is: 'bátur', category: 'Farartæki', level: 1 },
+  { id: 'far-6', da: 'cykel', is: 'hjól', category: 'Farartæki', level: 1 },
+
+  // --- Tölur 11–20 og meira (2) ---
+  { id: 'tal-11', da: 'elleve', is: 'ellefu', category: 'Tölur', level: 2 },
+  { id: 'tal-12', da: 'tolv', is: 'tólf', category: 'Tölur', level: 2 },
+  { id: 'tal-13', da: 'tretten', is: 'þrettán', category: 'Tölur', level: 2 },
+  { id: 'tal-14', da: 'fjorten', is: 'fjórtán', category: 'Tölur', level: 2 },
+  { id: 'tal-15', da: 'femten', is: 'fimmtán', category: 'Tölur', level: 2 },
+  { id: 'tal-16', da: 'seksten', is: 'sextán', category: 'Tölur', level: 2 },
+  { id: 'tal-17', da: 'sytten', is: 'sautján', category: 'Tölur', level: 2 },
+  { id: 'tal-18', da: 'atten', is: 'átján', category: 'Tölur', level: 2 },
+  { id: 'tal-19', da: 'nitten', is: 'nítján', category: 'Tölur', level: 2 },
+  { id: 'tal-20', da: 'tyve', is: 'tuttugu', category: 'Tölur', level: 2 },
+  { id: 'tal-21', da: 'hundrede', is: 'hundrað', category: 'Tölur', level: 2 },
+
+  // --- Föt (2) ---
+  { id: 'fot-1', da: 'bukser', is: 'buxur', category: 'Föt', level: 2 },
+  { id: 'fot-2', da: 'trøje', is: 'peysa', category: 'Föt', level: 2 },
+  { id: 'fot-3', da: 'sko', is: 'skór', category: 'Föt', level: 2 },
+  { id: 'fot-4', da: 'jakke', is: 'jakki', category: 'Föt', level: 2 },
+  { id: 'fot-5', da: 'hue', is: 'húfa', category: 'Föt', level: 2 },
+  { id: 'fot-6', da: 'vanter', is: 'vettlingar', category: 'Föt', level: 2 },
+  { id: 'fot-7', da: 'kjole', is: 'kjóll', category: 'Föt', level: 2 },
+  { id: 'fot-8', da: 'strømper', is: 'sokkar', category: 'Föt', level: 2 },
+
+  // --- Náttúran (2) ---
+  { id: 'nat-1', da: 'træ', is: 'tré', category: 'Náttúran', level: 2 },
+  { id: 'nat-2', da: 'blomst', is: 'blóm', category: 'Náttúran', level: 2 },
+  { id: 'nat-3', da: 'himmel', is: 'himinn', category: 'Náttúran', level: 2 },
+  { id: 'nat-4', da: 'å', is: 'á (fljót)', category: 'Náttúran', level: 2 },
+  { id: 'nat-5', da: 'skov', is: 'skógur', category: 'Náttúran', level: 2 },
+  { id: 'nat-6', da: 'strand', is: 'strönd', category: 'Náttúran', level: 2 },
+  { id: 'nat-7', da: 'bjerg', is: 'fjall', category: 'Náttúran', level: 2 },
+  { id: 'nat-8', da: 'græs', is: 'gras', category: 'Náttúran', level: 2 },
+
+  // --- Spurnarorð (2) ---
+  { id: 'spu-1', da: 'hvad', is: 'hvað', category: 'Spurnarorð', level: 2 },
+  { id: 'spu-2', da: 'hvem', is: 'hver', category: 'Spurnarorð', level: 2 },
+  { id: 'spu-3', da: 'hvor', is: 'hvar', category: 'Spurnarorð', level: 2 },
+  { id: 'spu-4', da: 'hvornår', is: 'hvenær', category: 'Spurnarorð', level: 2 },
+  { id: 'spu-5', da: 'hvorfor', is: 'af hverju', category: 'Spurnarorð', level: 2 },
+  { id: 'spu-6', da: 'hvordan', is: 'hvernig', category: 'Spurnarorð', level: 2 },
+
+  // --- Bærinn (3) ---
+  { id: 'baer-1', da: 'by', is: 'bær', category: 'Bærinn', level: 3 },
+  { id: 'baer-2', da: 'gade', is: 'gata', category: 'Bærinn', level: 3 },
+  { id: 'baer-3', da: 'butik', is: 'búð', category: 'Bærinn', level: 3 },
+  { id: 'baer-4', da: 'kirke', is: 'kirkja', category: 'Bærinn', level: 3 },
+  { id: 'baer-5', da: 'bibliotek', is: 'bókasafn', category: 'Bærinn', level: 3 },
+  { id: 'baer-6', da: 'sygehus', is: 'sjúkrahús', category: 'Bærinn', level: 3 },
+  { id: 'baer-7', da: 'banegård', is: 'lestarstöð', category: 'Bærinn', level: 3 },
+  { id: 'baer-8', da: 'torv', is: 'torg', category: 'Bærinn', level: 3 },
+
+  // --- Fleiri sagnir (3) ---
+  { id: 'sag-13', da: 'at synge', is: 'að syngja', category: 'Sagnir', level: 3 },
+  { id: 'sag-14', da: 'at danse', is: 'að dansa', category: 'Sagnir', level: 3 },
+  { id: 'sag-15', da: 'at svømme', is: 'að synda', category: 'Sagnir', level: 3 },
+  { id: 'sag-16', da: 'at arbejde', is: 'að vinna', category: 'Sagnir', level: 3 },
+  { id: 'sag-17', da: 'at bo', is: 'að búa', category: 'Sagnir', level: 3 },
+  { id: 'sag-18', da: 'at hjælpe', is: 'að hjálpa', category: 'Sagnir', level: 3 },
+  { id: 'sag-19', da: 'at finde', is: 'að finna', category: 'Sagnir', level: 3 },
+  { id: 'sag-20', da: 'at give', is: 'að gefa', category: 'Sagnir', level: 3 },
+  { id: 'sag-21', da: 'at tage', is: 'að taka', category: 'Sagnir', level: 3 },
+  { id: 'sag-22', da: 'at komme', is: 'að koma', category: 'Sagnir', level: 3 },
 ];

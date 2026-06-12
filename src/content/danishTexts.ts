@@ -492,4 +492,333 @@ export const DANISH_TEXTS: ReadingText[] = [
       },
     ],
   },
+  {
+    id: 'da-misser',
+    language: 'da',
+    level: 1,
+    title: 'Min kat Misser',
+    body:
+      'Jeg har en kat. Den hedder Misser. Misser er grå og meget blød. Den sover hele dagen i vindueskarmen, hvor solen skinner.\n\nOm aftenen er den vågen og vil lege. Misser jagter en lille rød bold rundt i stuen. Når den er sulten, siger den „mjav“. Så får den fisk. Misser er verdens bedste kat.',
+    glossary: [
+      { word: 'kat', translation: 'köttur' },
+      { word: 'blød', translation: 'mjúk' },
+      { word: 'sover', translation: 'sefur' },
+      { word: 'vindueskarmen', translation: 'gluggakistunni' },
+      { word: 'vågen', translation: 'vakandi' },
+      { word: 'jagter', translation: 'eltir' },
+      { word: 'bold', translation: 'bolti' },
+      { word: 'sulten', translation: 'svöng' },
+    ],
+    questions: [
+      {
+        prompt: 'Hvernig er Misser á litinn?',
+        choices: ['Grá', 'Svört', 'Hvít', 'Brún'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvar sefur Misser á daginn?',
+        choices: ['Í gluggakistunni í sólinni', 'Undir rúminu', 'Í kassa', 'Úti í garði'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gerir Misser á kvöldin?',
+        choices: ['Vakir og vill leika sér', 'Sefur', 'Fer út að veiða', 'Horfir á sjónvarpið'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað fær Misser að borða þegar hún mjálmar?',
+        choices: ['Fisk', 'Mjólk', 'Kjöt', 'Kattanammi'],
+        correctIndex: 0,
+      },
+    ],
+  },
+  {
+    id: 'da-vinter',
+    language: 'da',
+    level: 1,
+    title: 'Vinter',
+    body:
+      'Det er vinter. Det er koldt udenfor, og det bliver tidligt mørkt. Børnene har huer og vanter på.\n\nNogle gange sner det. Så bygger børnene en snemand med en gulerod som næse. Bagefter drikker de varm kakao med flødeskum. Om vinteren er der også jul. Det er den bedste tid på året.',
+    glossary: [
+      { word: 'vinter', translation: 'vetur' },
+      { word: 'koldt', translation: 'kalt' },
+      { word: 'mørkt', translation: 'dimmt' },
+      { word: 'huer', translation: 'húfur' },
+      { word: 'vanter', translation: 'vettlingar' },
+      { word: 'sner', translation: 'snjóar' },
+      { word: 'snemand', translation: 'snjókarl' },
+      { word: 'gulerod', translation: 'gulrót' },
+      { word: 'flødeskum', translation: 'þeyttur rjómi' },
+    ],
+    questions: [
+      {
+        prompt: 'Hvað klæða börnin sig í þegar kalt er?',
+        choices: ['Húfur og vettlinga', 'Stuttbuxur', 'Sundföt', 'Regnföt'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað byggja börnin þegar það snjóar?',
+        choices: ['Snjókarl', 'Snjóhús', 'Kastala', 'Brettapall'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað er nefið á snjókarlinum?',
+        choices: ['Gulrót', 'Steinn', 'Grein', 'Epli'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað drekka börnin á eftir?',
+        choices: ['Heitt kakó með rjóma', 'Kalt vatn', 'Djús', 'Te'],
+        correctIndex: 0,
+      },
+    ],
+  },
+  {
+    id: 'da-svommehal',
+    language: 'da',
+    level: 1,
+    title: 'I svømmehallen',
+    body:
+      'Hver torsdag går jeg i svømmehallen med min klasse. Først tager vi bad, og så hopper vi i det store bassin. Vandet er dejligt varmt.\n\nJeg kan svømme hundrede meter uden at stoppe! Min ven Anton tør ikke springe fra vippen, men jeg elsker det. Til sidst leger vi med en stor gul bold. Bagefter er jeg altid træt og sulten.',
+    glossary: [
+      { word: 'svømmehallen', translation: 'sundlaugin' },
+      { word: 'bad', translation: 'sturta' },
+      { word: 'bassin', translation: 'laug' },
+      { word: 'svømme', translation: 'synda' },
+      { word: 'tør', translation: 'þorir' },
+      { word: 'vippen', translation: 'stökkbrettið' },
+      { word: 'træt', translation: 'þreyttur' },
+      { word: 'sulten', translation: 'svangur' },
+    ],
+    questions: [
+      {
+        prompt: 'Hvenær fer bekkurinn í sund?',
+        choices: ['Á fimmtudögum', 'Á mánudögum', 'Á laugardögum', 'Á hverjum degi'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gera krakkarnir fyrst?',
+        choices: ['Fara í sturtu', 'Hoppa beint út í', 'Leika með bolta', 'Stökkva af brettinu'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað þorir Anton ekki að gera?',
+        choices: ['Stökkva af stökkbrettinu', 'Synda í djúpu lauginni', 'Fara í kalda pottinn', 'Synda 100 metra'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvernig líður sögumanninum eftir sundið?',
+        choices: ['Þreyttum og svöngum', 'Köldum', 'Leiðum', 'Hræddum'],
+        correctIndex: 0,
+      },
+    ],
+  },
+  {
+    id: 'da-jul',
+    language: 'da',
+    level: 2,
+    title: 'Jul i Danmark',
+    body:
+      'I Danmark fejrer man jul den fireogtyvende december om aftenen. Familien spiser and eller flæskesteg og bagefter risalamande — en kold risdessert med mandler. Den, der finder den hele mandel, vinder en gave!\n\nEfter maden danser familien rundt om juletræet og synger julesange. Så åbner alle deres gaver. I december har børnene også en julekalender med fireogtyve små låger. Mange danske familier hygger sig med lys og småkager hele måneden.',
+    glossary: [
+      { word: 'fejrer', translation: 'halda upp á' },
+      { word: 'and', translation: 'önd' },
+      { word: 'flæskesteg', translation: 'svínasteik' },
+      { word: 'mandler', translation: 'möndlur' },
+      { word: 'gave', translation: 'gjöf' },
+      { word: 'juletræet', translation: 'jólatréð' },
+      { word: 'julesange', translation: 'jólalög' },
+      { word: 'låger', translation: 'lúgur' },
+      { word: 'småkager', translation: 'smákökur' },
+    ],
+    questions: [
+      {
+        prompt: 'Hvenær halda Danir jólin hátíðleg?',
+        choices: ['Að kvöldi 24. desember', 'Á jóladagsmorgun', '23. desember', 'Á gamlárskvöld'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað vinnur sá sem finnur heilu mönduna í eftirréttinum?',
+        choices: ['Gjöf', 'Pening', 'Auka eftirrétt', 'Ekkert'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gerir fjölskyldan eftir matinn?',
+        choices: ['Dansar í kringum jólatréð og syngur', 'Horfir á jólamynd', 'Fer í kirkju', 'Fer snemma að sofa'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað eru margar lúgur á jóladagatalinu?',
+        choices: ['24', '12', '31', '25'],
+        correctIndex: 0,
+      },
+    ],
+  },
+  {
+    id: 'da-lego',
+    language: 'da',
+    level: 2,
+    title: 'LEGO',
+    body:
+      'Vidste du, at LEGO kommer fra Danmark? En tømrer, der hed Ole Kirk Christiansen, begyndte at lave legetøj af træ i byen Billund. Navnet LEGO kommer fra de danske ord „leg godt“.\n\nI 1958 fik LEGO-klodsen den form, som vi kender i dag. Klodserne passer stadig sammen med de helt gamle! I Billund ligger der i dag en kæmpe forlystelsespark, der hedder Legoland. Der kan man se hele byer bygget af millioner af klodser.',
+    glossary: [
+      { word: 'tømrer', translation: 'smiður' },
+      { word: 'legetøj', translation: 'leikföng' },
+      { word: 'træ', translation: 'viður/tré' },
+      { word: 'klodsen', translation: 'kubburinn' },
+      { word: 'passer', translation: 'passa' },
+      { word: 'stadig', translation: 'ennþá' },
+      { word: 'kæmpe', translation: 'risastór' },
+      { word: 'millioner', translation: 'milljónir' },
+    ],
+    questions: [
+      {
+        prompt: 'Frá hvaða landi kemur LEGO?',
+        choices: ['Danmörku', 'Þýskalandi', 'Svíþjóð', 'Bandaríkjunum'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað þýðir nafnið LEGO?',
+        choices: ['„Leg godt“ – leiktu þér vel', 'Það er nafn stofnandans', '„Lítil gögn“', 'Það þýðir ekkert'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gerði Ole Kirk Christiansen fyrst?',
+        choices: ['Bjó til leikföng úr tré', 'Byggði skemmtigarð', 'Seldi plastkubba', 'Teiknaði hús'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað er hægt að sjá í Legolandi?',
+        choices: ['Heilar borgir byggðar úr kubbum', 'Alvöru kastala', 'Dýragarð', 'Víkingaskip'],
+        correctIndex: 0,
+      },
+    ],
+  },
+  {
+    id: 'da-zoo',
+    language: 'da',
+    level: 2,
+    title: 'En dag i Zoo',
+    body:
+      'I søndags var jeg i Zoologisk Have i København med min far. Vi så elefanter, giraffer og løver. Isbjørnen svømmede rundt i sit store bassin, og aberne lavede sjov, så alle børnene grinede.\n\nMit yndlingsdyr var den røde panda. Den sad højt oppe i et træ og spiste blade. Til frokost købte far is til os. På vej hjem sagde jeg: „Tak for en god dag, far!“',
+    glossary: [
+      { word: 'søndags', translation: 'sunnudaginn' },
+      { word: 'elefanter', translation: 'fílar' },
+      { word: 'løver', translation: 'ljón' },
+      { word: 'isbjørnen', translation: 'ísbjörninn' },
+      { word: 'aberne', translation: 'aparnir' },
+      { word: 'grinede', translation: 'hlógu' },
+      { word: 'yndlingsdyr', translation: 'uppáhaldsdýr' },
+      { word: 'blade', translation: 'lauf' },
+    ],
+    questions: [
+      {
+        prompt: 'Með hverjum fór sögumaðurinn í dýragarðinn?',
+        choices: ['Pabba sínum', 'Mömmu sinni', 'Bekknum sínum', 'Afa sínum'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gerði ísbjörninn?',
+        choices: ['Synti í stóru lauginni sinni', 'Svaf allan tímann', 'Borðaði fisk', 'Faldi sig'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvert var uppáhaldsdýr sögumannsins?',
+        choices: ['Rauða pandan', 'Fíllinn', 'Ljónið', 'Apinn'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað keypti pabbinn handa þeim í hádeginu?',
+        choices: ['Ís', 'Pylsur', 'Popp', 'Samlokur'],
+        correctIndex: 0,
+      },
+    ],
+  },
+  {
+    id: 'da-kongehus',
+    language: 'da',
+    level: 3,
+    title: 'Det danske kongehus',
+    body:
+      'Danmark er et kongerige — et af de ældste i verden. Det danske kongehus kan følges mere end tusind år tilbage, helt til vikingekongen Gorm den Gamle.\n\nI dag hedder kongen Frederik den Tiende. Han blev konge i 2024, da hans mor, dronning Margrethe den Anden, valgte at give tronen videre efter 52 år som dronning. Det havde ingen dansk monark gjort i næsten 900 år! Kong Frederiks kone, dronning Mary, kommer helt fra Australien.\n\nKongefamilien bor på Amalienborg i København. Hver dag klokken tolv kan man se de kongelige livgarder skifte vagt foran slottet.',
+    glossary: [
+      { word: 'kongerige', translation: 'konungsríki' },
+      { word: 'ældste', translation: 'elstu' },
+      { word: 'kongehus', translation: 'konungsfjölskylda' },
+      { word: 'tronen', translation: 'hásætið' },
+      { word: 'monark', translation: 'þjóðhöfðingi' },
+      { word: 'livgarder', translation: 'lífverðir' },
+      { word: 'vagt', translation: 'vakt' },
+      { word: 'slottet', translation: 'höllin' },
+    ],
+    questions: [
+      {
+        prompt: 'Hver er konungur Danmerkur í dag?',
+        choices: ['Friðrik tíundi', 'Margrét önnur', 'Gormur gamli', 'Kristján tíundi'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gerði Margrét drottning árið 2024?',
+        choices: ['Gaf hásætið áfram til sonar síns', 'Varð drottning', 'Flutti til Ástralíu', 'Hélt 52 ára afmæli'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvaðan kemur Mary drottning?',
+        choices: ['Frá Ástralíu', 'Frá Danmörku', 'Frá Íslandi', 'Frá Englandi'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gerist klukkan tólf á hverjum degi við Amalienborg?',
+        choices: ['Lífverðirnir skipta um vakt', 'Konungurinn veifar af svölunum', 'Kirkjuklukkurnar hringja', 'Höllin opnar fyrir gesti'],
+        correctIndex: 0,
+      },
+    ],
+  },
+  {
+    id: 'da-skattejagt',
+    language: 'da',
+    level: 3,
+    title: 'Skattejagten',
+    body:
+      'Hvert år i juli låner familien et gammelt sommerhus ved Vesterhavet. I år fandt Ida noget mærkeligt på loftet: et gulnet stykke papir med et kort over haven — og et rødt kryds bag æbletræet.\n\n„Det er helt sikkert en skattejagt!“ råbte hendes lillebror Emil. De løb ud i haven med en skovl og gravede, hvor krydset var. En halv meter nede stødte skovlen mod noget hårdt: en lille rusten dåse.\n\nI dåsen lå der ingen guldmønter — kun et gammelt foto af to børn med en hund og en seddel: „Hilsen fra sommeren 1985. Grav skatten ned igen til de næste.“ Det gjorde Ida og Emil. Men først lagde de deres eget foto i dåsen.',
+    glossary: [
+      { word: 'sommerhus', translation: 'sumarbústaður' },
+      { word: 'loftet', translation: 'háaloftið' },
+      { word: 'gulnet', translation: 'gulnað' },
+      { word: 'kryds', translation: 'kross' },
+      { word: 'skattejagt', translation: 'fjársjóðsleit' },
+      { word: 'skovl', translation: 'skófla' },
+      { word: 'gravede', translation: 'grófu' },
+      { word: 'rusten', translation: 'ryðguð' },
+      { word: 'dåse', translation: 'dós' },
+      { word: 'seddel', translation: 'miði' },
+    ],
+    questions: [
+      {
+        prompt: 'Hvað fann Ida á háaloftinu?',
+        choices: ['Gamalt kort af garðinum með rauðum krossi', 'Gamla ljósmynd', 'Ryðgaða dós', 'Gullpeninga'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvar grófu krakkarnir?',
+        choices: ['Bak við eplatréð', 'Undir pallinum', 'Í fjörunni', 'Við hliðið'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað var í dósinni?',
+        choices: ['Gömul ljósmynd og miði', 'Gullpeningar', 'Gamalt leikfang', 'Ekkert'],
+        correctIndex: 0,
+      },
+      {
+        prompt: 'Hvað gerðu Ida og Emil að lokum?',
+        choices: [
+          'Settu sína eigin mynd í dósina og grófu hana aftur',
+          'Tóku dósina með sér heim',
+          'Sýndu foreldrum sínum dósina',
+          'Leituðu að krökkunum á myndinni',
+        ],
+        correctIndex: 0,
+      },
+    ],
+  },
 ];
