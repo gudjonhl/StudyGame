@@ -1,0 +1,249 @@
+/* --- Talnaborð --- */
+
+.keypad {
+  max-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.keypad-display {
+  min-height: 60px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  border: 2px solid var(--line);
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.keypad-display.masked {
+  letter-spacing: 8px;
+}
+
+.keypad-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.keypad-key {
+  min-height: 60px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  font-size: 24px;
+  font-weight: 700;
+  transition: transform 0.06s ease;
+}
+
+.keypad-key:active {
+  transform: scale(0.94);
+}
+
+.keypad-key-alt {
+  background: var(--line);
+}
+
+/* --- Svarmöguleikar --- */
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.choice-btn {
+  min-height: 56px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  border: 2px solid transparent;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+  transition: transform 0.06s ease;
+}
+
+.choice-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.choice-btn.correct {
+  background: var(--green-soft);
+  border-color: var(--green);
+}
+
+.choice-btn.wrong {
+  background: var(--red-soft);
+  border-color: var(--red);
+}
+
+.choice-btn.dimmed {
+  opacity: 0.55;
+}
+
+/* --- Pörunarspil --- */
+
+.match-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.match-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.match-card {
+  min-height: 56px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  border: 2px solid transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.match-card.selected {
+  border-color: var(--c-math);
+  background: #eef3ff;
+}
+
+.match-card.matched {
+  background: var(--green-soft);
+  border-color: var(--green);
+  opacity: 0.6;
+}
+
+/* --- Framvindupunktar --- */
+
+.progress-dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--line);
+}
+
+.dot-current {
+  background: var(--c-gold);
+  transform: scale(1.2);
+}
+
+.dot-correct {
+  background: var(--green);
+}
+
+.dot-wrong {
+  background: var(--red);
+}
+
+/* --- Stig og dagaröð --- */
+
+.points-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 800;
+  background: #fff3d6;
+  border-radius: 999px;
+  padding: 6px 14px;
+  white-space: nowrap;
+}
+
+.points-badge.big {
+  font-size: 24px;
+  padding: 10px 20px;
+}
+
+.points-unit {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.8em;
+}
+
+.streak-flame {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.streak-flame.inactive {
+  filter: grayscale(1);
+  opacity: 0.5;
+}
+
+/* --- Svörunarborði (feedback) --- */
+
+.feedback-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 18px 16px calc(18px + env(safe-area-inset-bottom));
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  animation: fade-in-up 0.2s ease;
+  z-index: 40;
+}
+
+.feedback-banner.good {
+  background: var(--green);
+}
+
+.feedback-banner.bad {
+  background: var(--red);
+}
+
+/* --- Þrepastika --- */
+
+.level-bar {
+  height: 12px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+
+.level-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--c-gold);
+  transition: width 0.4s ease;
+}
+
+/* --- Orður --- */
+
+.badge-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: 999px;
+  padding: 6px 14px 6px 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.badge-chip .badge-icon {
+  font-size: 20px;
+}
